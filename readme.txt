@@ -14,6 +14,8 @@ Free live chat for WordPress with no account or API key. Chats stay in your own 
 
 Live chat that runs on your own WordPress site. No account, no trial, no monthly fee, no limits on agents or chats.
 
+[Documentation](https://softiconai.com/docs/live-chat/) | [Live demo](https://softiconai.com/products/live-chat/demos/) | [Website](https://softiconai.com/products/live-chat/) | [Support](https://wordpress.org/support/plugin/softicon-live-chat/)
+
 https://www.youtube.com/watch?v=_q6ChHFN0qw
 
 **New to it?** Watch the [4-minute walkthrough](https://www.youtube.com/watch?v=Ut1rL5HBLqM), from installing the plugin to answering your first visitor, or [every setting, explained](https://www.youtube.com/watch?v=VLPyIS-lNDc) in 2 minutes.
