@@ -20,4 +20,5 @@ CLAUDE.md
 # Local credentials and marketing, never commit
 svn.txt
 *.secret
+elevenlabs*.txt
 marketing/

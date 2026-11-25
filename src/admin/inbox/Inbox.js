@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from '@wordpress/element';
 import apiFetch from '@wordpress/api-fetch';
 import { addQueryArgs } from '@wordpress/url';
 import { __, _n, sprintf } from '@wordpress/i18n';
-import { Button, Notice, Spinner } from '@wordpress/components';
+import { Button, ExternalLink, Notice, Spinner } from '@wordpress/components';
 import { chime } from '../sound';
 import ChatList from './ChatList';
 import Chat from './Chat';
@@ -274,6 +274,7 @@ export default function Inbox() {
 									<>
 										<span className="dashicons dashicons-format-chat" aria-hidden="true" />
 										<p>{ counts.waiting ? sprintf( /* translators: %d: number of chats */ _n( '%d visitor is waiting. Pick a chat on the left.', '%d visitors are waiting. Pick a chat on the left.', counts.waiting, 'softicon-live-chat' ), counts.waiting ) : __( 'Pick a chat on the left. New chats show up here by themselves.', 'softicon-live-chat' ) }</p>
+										{ data.videoUrl && <ExternalLink className="allcVideo" href={ data.videoUrl }>{ __( 'Video: how to answer chats', 'softicon-live-chat' ) }</ExternalLink> }
 									</>
 								) }
 							</div>

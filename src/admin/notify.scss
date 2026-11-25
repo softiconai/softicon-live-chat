@@ -9,7 +9,12 @@
 
 #wpadminbar #wp-admin-bar-allc .allcBarCount:not([data-count="0"]) {
 	display: inline-block;
+	box-sizing: border-box;
+	// the admin bar gives every span a 32px height: keep the badge 18px high, centred in the bar
+	height: 18px;
 	min-width: 18px;
+	margin-top: 7px;
+	vertical-align: top;
 	padding: 0 6px;
 	border-radius: 9px;
 	background: #d63638;

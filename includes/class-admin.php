@@ -10,6 +10,10 @@ class Admin {
 	const SLUG     = 'softicon-live-chat';
 	const SETTINGS = 'softicon-live-chat-settings';
 
+	// YouTube tutorials, opened only when the user clicks
+	const VIDEO_WALKTHROUGH = 'https://www.youtube.com/watch?v=Ut1rL5HBLqM';
+	const VIDEO_SETTINGS    = 'https://www.youtube.com/watch?v=VLPyIS-lNDc';
+
 	private static $hooks = array();
 
 	public static function init() {
@@ -18,6 +22,7 @@ class Admin {
 		add_filter( 'heartbeat_received', array( __CLASS__, 'heartbeat' ), 10, 2 );
 		add_action( 'admin_bar_menu', array( __CLASS__, 'admin_bar' ), 80 );
 		add_filter( 'plugin_action_links_' . plugin_basename( ALLC_PLUGIN_FILE ), array( __CLASS__, 'links' ) );
+		add_filter( 'plugin_row_meta', array( __CLASS__, 'row_meta' ), 10, 2 );
 	}
 
 	// the menu bubble and the admin bar share one query per page
@@ -47,7 +52,13 @@ class Admin {
 	}
 
 	public static function settings_page() {
-		echo '<div class="wrap allcWrap"><h1>' . esc_html__( 'Live Chat Settings', 'softicon-live-chat' ) . '</h1><div id="allc-settings"></div></div>';
+		printf(
+			'<div class="wrap allcWrap"><h1 class="wp-heading-inline">%1$s</h1> <a href="%2$s" class="page-title-action" target="_blank" rel="noopener noreferrer">%3$s<span class="screen-reader-text"> %4$s</span></a><hr class="wp-header-end"><div id="allc-settings"></div></div>',
+			esc_html__( 'Live Chat Settings', 'softicon-live-chat' ),
+			esc_url( self::VIDEO_SETTINGS ),
+			esc_html__( 'Video: every setting explained', 'softicon-live-chat' ),
+			esc_html__( '(opens in a new tab)', 'softicon-live-chat' )
+		);
 	}
 
 	private static function app( $name, $data, $extra_deps = array() ) {
@@ -81,7 +92,8 @@ class Admin {
 		self::app( 'notify', $common, array( 'heartbeat' ) );
 
 		if ( ( self::$hooks['inbox'] ?? '' ) === $hook ) {
-			self::app( 'inbox', $common );
+			// the walkthrough's inbox chapter starts at 2:00
+			self::app( 'inbox', array_merge( $common, array( 'videoUrl' => self::VIDEO_WALKTHROUGH . '&t=120s' ) ) );
 		} elseif ( ( self::$hooks['settings'] ?? '' ) === $hook && current_user_can( 'allc_manage' ) ) {
 			wp_enqueue_media();
 			self::app(
@@ -130,5 +142,17 @@ class Admin {
 			array_unshift( $links, '<a href="' . esc_url( admin_url( 'admin.php?page=' . self::SETTINGS ) ) . '">' . esc_html__( 'Settings', 'softicon-live-chat' ) . '</a>' );
 		}
 		return $links;
+	}
+
+	public static function row_meta( $meta, $file ) {
+		if ( plugin_basename( ALLC_PLUGIN_FILE ) === $file ) {
+			$meta[] = sprintf(
+				'<a href="%1$s" target="_blank" rel="noopener noreferrer">%2$s<span class="screen-reader-text"> %3$s</span></a>',
+				esc_url( self::VIDEO_WALKTHROUGH ),
+				esc_html__( 'Video tutorial', 'softicon-live-chat' ),
+				esc_html__( '(opens in a new tab)', 'softicon-live-chat' )
+			);
+		}
+		return $meta;
 	}
 }

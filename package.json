@@ -1,6 +1,6 @@
 {
 	"name": "softicon-live-chat",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Self-hosted live chat for WordPress: a light chat widget for visitors and an inbox in wp-admin, no account or external service",
 	"main": "build/widget.js",
 	"scripts": {

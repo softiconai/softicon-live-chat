@@ -4,6 +4,14 @@ A live chat plugin for WordPress that runs on your own site. Visitors chat from 
 
 WordPress.org: https://wordpress.org/plugins/softicon-live-chat/
 
+Videos:
+
+- [Full walkthrough](https://www.youtube.com/watch?v=Ut1rL5HBLqM) (4:06): install, set up and answer your visitors
+- [Every setting, explained](https://www.youtube.com/watch?v=VLPyIS-lNDc) (2:21)
+- [30-second promo](https://www.youtube.com/watch?v=_q6ChHFN0qw)
+
+[![Full walkthrough](https://img.youtube.com/vi/Ut1rL5HBLqM/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ut1rL5HBLqM)
+
 ## Development
 
 ```bash

@@ -4,7 +4,7 @@ Tags: live chat, chat, customer support, support chat, helpdesk
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,10 @@ Free live chat for WordPress with no account or API key. Chats stay in your own 
 == Description ==
 
 Live chat that runs on your own WordPress site. No account, no trial, no monthly fee, no limits on agents or chats.
+
+https://www.youtube.com/watch?v=_q6ChHFN0qw
+
+**New to it?** Watch the [4-minute walkthrough](https://www.youtube.com/watch?v=Ut1rL5HBLqM), from installing the plugin to answering your first visitor, or [every setting, explained](https://www.youtube.com/watch?v=VLPyIS-lNDc) in 2 minutes.
 
 SoftIcon Live Chat adds a chat button to your site. Visitors write to you, and you answer from an inbox in wp-admin. Everything runs on your own WordPress site: the chats are stored in your own database and never pass through another company's servers.
 
@@ -85,6 +89,22 @@ There is nothing to sign up for. No account, no API key, no trial that ends, and
 
 == Frequently Asked Questions ==
 
+= Is there a video tutorial? =
+
+Yes, two. The [full walkthrough](https://www.youtube.com/watch?v=Ut1rL5HBLqM) (4:06) goes from installing the plugin to answering visitors. Jump to a part:
+
+* [Settings and the live preview](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=26s)
+* [The form before the chat](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=58s)
+* [WhatsApp and email buttons](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=73s)
+* [What the visitor sees](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=97s)
+* [The inbox: take a chat and answer](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=120s)
+* [Saved replies and private notes](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=160s)
+* [Transfer, end the chat and the rating](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=178s)
+* [Offline messages answered by email](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=200s)
+* [The Live Chat block in a page](https://www.youtube.com/watch?v=Ut1rL5HBLqM&t=219s)
+
+[Every setting, explained](https://www.youtube.com/watch?v=VLPyIS-lNDc) (2:21) goes through each settings tab. The Plugins screen, the settings page and the empty inbox link to these videos too.
+
 = Do I need an account anywhere? =
 
 No. The plugin is the whole chat system. It does not connect to any outside chat service.
@@ -150,10 +170,17 @@ The optional WhatsApp, Messenger, Telegram, phone and email buttons are plain li
 
 == Changelog ==
 
+= 1.0.1 =
+* Links to the video tutorials on the Plugins screen, the settings page and the empty inbox.
+* Fixed: the number of waiting chats in the admin bar was taller than the bar.
+
 = 1.0.0 =
 * First release.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Adds links to the video tutorials.
 
 = 1.0.0 =
 First release.

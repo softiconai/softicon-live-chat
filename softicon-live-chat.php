@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Live Chat – Self-Hosted Chat Widget for Customer Support
  * Description: Live chat that runs on your own WordPress site. Visitors chat from a light widget, you answer from an inbox in wp-admin. No account, no trial, no external servers.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Author: softiconai
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ALLC_PLUGIN_VERSION', '1.0.0' );
+define( 'ALLC_PLUGIN_VERSION', '1.0.1' );
 define( 'ALLC_PLUGIN_FILE', __FILE__ );
 define( 'ALLC_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'ALLC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );

@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Live Chat – Self-Hosted Chat Widget for Customer Support 1.0.0\n"
+"Project-Id-Version: Live Chat – Self-Hosted Chat Widget for Customer Support 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/softicon-live-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-25T04:06:41+00:00\n"
+"POT-Creation-Date: 2026-11-25T13:01:43+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: softicon-live-chat\n"
@@ -34,33 +34,46 @@ msgstr ""
 msgid "https://profiles.wordpress.org/softiconai/"
 msgstr ""
 
-#: includes/class-admin.php:38
-#: includes/class-admin.php:121
-#: includes/class-admin.php:123
+#: includes/class-admin.php:43
+#: includes/class-admin.php:133
+#: includes/class-admin.php:135
 #: build/block/index.js:1
 #: build/inbox.js:1
 #: build/notify.js:1
 msgid "Live Chat"
 msgstr ""
 
-#: includes/class-admin.php:41
 #: includes/class-admin.php:46
+#: includes/class-admin.php:51
 msgid "Live Chat Inbox"
 msgstr ""
 
-#: includes/class-admin.php:41
+#: includes/class-admin.php:46
 msgid "Inbox"
 msgstr ""
 
-#: includes/class-admin.php:42
-#: includes/class-admin.php:50
+#: includes/class-admin.php:47
+#: includes/class-admin.php:57
 msgid "Live Chat Settings"
 msgstr ""
 
-#: includes/class-admin.php:42
-#: includes/class-admin.php:130
+#: includes/class-admin.php:47
+#: includes/class-admin.php:142
 #: build/inbox.js:1
 msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:59
+msgid "Video: every setting explained"
+msgstr ""
+
+#: includes/class-admin.php:60
+#: includes/class-admin.php:153
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: includes/class-admin.php:152
+msgid "Video tutorial"
 msgstr ""
 
 #: includes/class-auth.php:28
@@ -776,6 +789,10 @@ msgstr[1] ""
 
 #: build/inbox.js:1
 msgid "Pick a chat on the left. New chats show up here by themselves."
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Video: how to answer chats"
 msgstr ""
 
 #. translators: %d: number of visitors waiting
