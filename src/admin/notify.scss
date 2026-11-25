@@ -1,0 +1,20 @@
+#wpadminbar #wp-admin-bar-allc .ab-icon::before {
+	content: "\f125";
+	top: 2px;
+}
+
+#wpadminbar #wp-admin-bar-allc .allcBarCount[data-count="0"] {
+	opacity: 0.6;
+}
+
+#wpadminbar #wp-admin-bar-allc .allcBarCount:not([data-count="0"]) {
+	display: inline-block;
+	min-width: 18px;
+	padding: 0 6px;
+	border-radius: 9px;
+	background: #d63638;
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+}

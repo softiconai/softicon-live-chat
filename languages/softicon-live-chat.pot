@@ -1,0 +1,1412 @@
+# Copyright (C) 2026 softiconai
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat – Self-Hosted Chat Widget for Customer Support 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/softicon-live-chat\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-25T04:06:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: softicon-live-chat\n"
+
+#. Plugin Name of the plugin
+#: softicon-live-chat.php
+msgid "Live Chat – Self-Hosted Chat Widget for Customer Support"
+msgstr ""
+
+#. Description of the plugin
+#: softicon-live-chat.php
+msgid "Live chat that runs on your own WordPress site. Visitors chat from a light widget, you answer from an inbox in wp-admin. No account, no trial, no external servers."
+msgstr ""
+
+#. Author of the plugin
+#: softicon-live-chat.php
+msgid "softiconai"
+msgstr ""
+
+#. Author URI of the plugin
+#: softicon-live-chat.php
+msgid "https://profiles.wordpress.org/softiconai/"
+msgstr ""
+
+#: includes/class-admin.php:38
+#: includes/class-admin.php:121
+#: includes/class-admin.php:123
+#: build/block/index.js:1
+#: build/inbox.js:1
+#: build/notify.js:1
+msgid "Live Chat"
+msgstr ""
+
+#: includes/class-admin.php:41
+#: includes/class-admin.php:46
+msgid "Live Chat Inbox"
+msgstr ""
+
+#: includes/class-admin.php:41
+msgid "Inbox"
+msgstr ""
+
+#: includes/class-admin.php:42
+#: includes/class-admin.php:50
+msgid "Live Chat Settings"
+msgstr ""
+
+#: includes/class-admin.php:42
+#: includes/class-admin.php:130
+#: build/inbox.js:1
+msgid "Settings"
+msgstr ""
+
+#: includes/class-auth.php:28
+#: includes/class-auth.php:34
+msgid "Not allowed."
+msgstr ""
+
+#: includes/class-auth.php:66
+msgid "This chat was not found."
+msgstr ""
+
+#: includes/class-auth.php:111
+msgid "Too many messages. Please wait a moment."
+msgstr ""
+
+#. translators: %s: visitor name
+#: includes/class-notify.php:32
+#, php-format
+msgid "Name: %s"
+msgstr ""
+
+#. translators: %s: visitor email
+#: includes/class-notify.php:36
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#. translators: %s: visitor phone number
+#: includes/class-notify.php:40
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#. translators: %s: page address
+#: includes/class-notify.php:49
+#, php-format
+msgid "Page: %s"
+msgstr ""
+
+#: includes/class-notify.php:103
+msgid "A visitor"
+msgstr ""
+
+#. translators: 1: site name, 2: visitor name
+#: includes/class-notify.php:106
+#, php-format
+msgid "[%1$s] New message from %2$s"
+msgstr ""
+
+#. translators: 1: site name, 2: visitor name
+#: includes/class-notify.php:108
+#, php-format
+msgid "[%1$s] %2$s is waiting in live chat"
+msgstr ""
+
+#. translators: %s: link to the chat in wp-admin
+#: includes/class-notify.php:111
+#, php-format
+msgid "Answer in the inbox: %s"
+msgstr ""
+
+#: includes/class-notify.php:113
+msgid "You can also reply to this email to answer by email."
+msgstr ""
+
+#. translators: %s: site name
+#: includes/class-notify.php:131
+#, php-format
+msgid "New reply from %s"
+msgstr ""
+
+#. translators: %s: page address
+#: includes/class-notify.php:135
+#, php-format
+msgid "Continue the chat: %s"
+msgstr ""
+
+#: includes/class-notify.php:149
+msgid "You"
+msgstr ""
+
+#. translators: %s: site name
+#: includes/class-notify.php:153
+#, php-format
+msgid "Your chat with %s"
+msgstr ""
+
+#. translators: %s: site name
+#: includes/class-notify.php:159
+#, php-format
+msgid "[%s] Live chat test email"
+msgstr ""
+
+#: includes/class-notify.php:160
+msgid "This is a test from SoftIcon Live Chat. If you can read it, new chat emails will reach you."
+msgstr ""
+
+#: includes/class-privacy.php:21
+#: includes/class-privacy.php:29
+#: includes/class-privacy.php:97
+msgid "Live chat conversations"
+msgstr ""
+
+#: includes/class-privacy.php:41
+#: build/inbox.js:1
+msgid "Started"
+msgstr ""
+
+#: includes/class-privacy.php:45
+#: includes/class-widget.php:104
+#: build/inbox.js:1
+#: build/settings.js:1
+msgid "Name"
+msgstr ""
+
+#: includes/class-privacy.php:49
+#: includes/class-settings.php:311
+#: includes/class-settings.php:349
+#: includes/class-widget.php:105
+#: build/inbox.js:1
+#: build/settings.js:1
+msgid "Email"
+msgstr ""
+
+#: includes/class-privacy.php:53
+#: includes/class-widget.php:106
+#: build/inbox.js:1
+#: build/settings.js:1
+msgid "Phone"
+msgstr ""
+
+#: includes/class-privacy.php:57
+#: build/inbox.js:1
+msgid "IP address"
+msgstr ""
+
+#: includes/class-privacy.php:61
+#: build/inbox.js:1
+msgid "Came from"
+msgstr ""
+
+#: includes/class-privacy.php:65
+#: build/inbox.js:1
+msgid "Pages visited"
+msgstr ""
+
+#: includes/class-privacy.php:69
+msgid "Rating comment"
+msgstr ""
+
+#: includes/class-privacy.php:73
+msgid "Browser"
+msgstr ""
+
+#: includes/class-privacy.php:88
+#: build/inbox.js:1
+msgid "Visitor"
+msgstr ""
+
+#: includes/class-privacy.php:92
+msgid "Messages"
+msgstr ""
+
+#: includes/class-privacy.php:131
+msgid "Suggested text for the live chat on your site. Change it to match your settings."
+msgstr ""
+
+#: includes/class-privacy.php:132
+msgid "Suggested text:"
+msgstr ""
+
+#: includes/class-privacy.php:133
+msgid "When you use the live chat on this website, we store your messages and the details you enter (such as your name, email address and phone number), the pages you viewed on this site before and during the chat, and your browser's user agent, so we can answer you. If enabled, we also store your IP address. This data is stored on our own server and is not sent to any third-party chat service."
+msgstr ""
+
+#: includes/class-privacy.php:134
+msgid "Your browser keeps the last pages you viewed on this site during your visit in local storage; they are sent to us only if you start a chat, so we can see where you need help. After you start a chat, your browser also keeps a random code for up to 30 days so you can continue the chat on other pages. No cookies are used. If you give your email address, we may send you our replies and, when you ask for it, a copy of the chat by email."
+msgstr ""
+
+#: includes/class-privacy.php:135
+msgid "SoftIcon Live Chat"
+msgstr ""
+
+#: includes/class-rest-agent.php:68
+msgid "Chat not found."
+msgstr ""
+
+#: includes/class-rest-agent.php:73
+msgid "An agent"
+msgstr ""
+
+#: includes/class-rest-agent.php:210
+#: includes/class-rest-visitor.php:180
+#: includes/class-rest-visitor.php:350
+msgid "Please write a message."
+msgstr ""
+
+#. translators: %s: agent name
+#: includes/class-rest-agent.php:228
+#: includes/class-rest-agent.php:269
+#, php-format
+msgid "%s joined the chat."
+msgstr ""
+
+#: includes/class-rest-agent.php:257
+msgid "This user cannot answer chats."
+msgstr ""
+
+#. translators: 1: agent name, 2: other agent name
+#: includes/class-rest-agent.php:271
+#, php-format
+msgid "%1$s transferred the chat to %2$s."
+msgstr ""
+
+#. translators: %s: agent name
+#: includes/class-rest-agent.php:290
+#, php-format
+msgid "%s ended the chat."
+msgstr ""
+
+#: includes/class-rest-agent.php:397
+msgid "User not found."
+msgstr ""
+
+#: includes/class-rest-visitor.php:172
+msgid "Please try again."
+msgstr ""
+
+#: includes/class-rest-visitor.php:212
+#: includes/class-settings.php:341
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/class-rest-visitor.php:222
+msgid "Yes"
+msgstr ""
+
+#: includes/class-rest-visitor.php:234
+msgid "Please fill in the required fields."
+msgstr ""
+
+#: includes/class-rest-visitor.php:247
+#: includes/class-settings.php:315
+msgid "Please accept the privacy notice."
+msgstr ""
+
+#: includes/class-rest-visitor.php:250
+msgid "Sorry, you cannot start a chat."
+msgstr ""
+
+#: includes/class-rest-visitor.php:292
+#: includes/class-settings.php:339
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-rest-visitor.php:346
+msgid "Sorry, you cannot send messages."
+msgstr ""
+
+#: includes/class-rest-visitor.php:391
+msgid "The visitor rated this chat as good."
+msgstr ""
+
+#: includes/class-rest-visitor.php:391
+msgid "The visitor rated this chat as bad."
+msgstr ""
+
+#: includes/class-rest-visitor.php:414
+msgid "The visitor ended the chat."
+msgstr ""
+
+#: includes/class-settings.php:288
+msgid "Chat with us"
+msgstr ""
+
+#: includes/class-settings.php:289
+#: build/block/index.js:1
+msgid "Hi! How can we help you today?"
+msgstr ""
+
+#: includes/class-settings.php:290
+msgid "We are away right now. Leave a message and we will reply by email."
+msgstr ""
+
+#: includes/class-settings.php:291
+msgid "I agree that my data is stored to answer my message."
+msgstr ""
+
+#: includes/class-settings.php:307
+#: build/inbox.js:1
+msgid "Online"
+msgstr ""
+
+#: includes/class-settings.php:308
+#: build/inbox.js:1
+msgid "Away"
+msgstr ""
+
+#: includes/class-settings.php:309
+msgid "Open chat"
+msgstr ""
+
+#: includes/class-settings.php:310
+msgid "Close chat"
+msgstr ""
+
+#: includes/class-settings.php:312
+msgid "Message"
+msgstr ""
+
+#. translators: %s: name of a form field
+#: includes/class-settings.php:314
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#: includes/class-settings.php:316
+msgid "optional"
+msgstr ""
+
+#: includes/class-settings.php:317
+msgid "Choose…"
+msgstr ""
+
+#: includes/class-settings.php:318
+msgid "Start chat"
+msgstr ""
+
+#: includes/class-settings.php:319
+msgid "Send message"
+msgstr ""
+
+#: includes/class-settings.php:320
+msgid "Write a message…"
+msgstr ""
+
+#: includes/class-settings.php:321
+#: build/inbox.js:1
+msgid "Send"
+msgstr ""
+
+#: includes/class-settings.php:322
+msgid "Typing…"
+msgstr ""
+
+#: includes/class-settings.php:323
+#: build/inbox.js:1
+msgid "Seen"
+msgstr ""
+
+#: includes/class-settings.php:324
+#: build/inbox.js:1
+msgid "End chat"
+msgstr ""
+
+#: includes/class-settings.php:325
+msgid "More options"
+msgstr ""
+
+#: includes/class-settings.php:326
+msgid "End this chat?"
+msgstr ""
+
+#: includes/class-settings.php:327
+msgid "Yes, end it"
+msgstr ""
+
+#: includes/class-settings.php:328
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-settings.php:329
+msgid "This chat has ended."
+msgstr ""
+
+#: includes/class-settings.php:330
+msgid "How was this chat?"
+msgstr ""
+
+#: includes/class-settings.php:331
+#: build/inbox.js:1
+msgid "Good"
+msgstr ""
+
+#: includes/class-settings.php:332
+#: build/inbox.js:1
+msgid "Bad"
+msgstr ""
+
+#: includes/class-settings.php:333
+msgid "Add a comment (optional)"
+msgstr ""
+
+#: includes/class-settings.php:334
+msgid "Email me a copy of this chat"
+msgstr ""
+
+#: includes/class-settings.php:335
+msgid "Submit"
+msgstr ""
+
+#: includes/class-settings.php:336
+msgid "Thank you!"
+msgstr ""
+
+#: includes/class-settings.php:337
+msgid "Start a new chat"
+msgstr ""
+
+#: includes/class-settings.php:338
+msgid "Thanks! We got your message and will reply by email as soon as we can."
+msgstr ""
+
+#: includes/class-settings.php:340
+msgid "Connection lost. Retrying…"
+msgstr ""
+
+#: includes/class-settings.php:342
+msgid "Or reach us on"
+msgstr ""
+
+#. translators: %d: number of unread messages
+#: includes/class-settings.php:344
+#, php-format
+msgid "Open chat, unread messages: %d"
+msgstr ""
+
+#: includes/class-settings.php:348
+msgid "Call"
+msgstr ""
+
+#: includes/class-settings.php:350
+msgid "Contact"
+msgstr ""
+
+#: includes/class-widget.php:95
+msgid "Please turn on JavaScript to chat with us."
+msgstr ""
+
+#: build/block/index.js:1
+msgid "Chat box"
+msgstr ""
+
+#: build/block/index.js:1
+msgid "Height (px)"
+msgstr ""
+
+#: build/block/index.js:1
+msgid "Colors, texts, the form and business hours are set once for the whole site."
+msgstr ""
+
+#: build/block/index.js:1
+msgid "Live Chat settings"
+msgstr ""
+
+#: build/block/index.js:1
+msgid "On a page with this block, the corner chat button is hidden."
+msgstr ""
+
+#: build/block/index.js:1
+msgid "Visitors chat with you here."
+msgstr ""
+
+#: build/block/index.js:1
+msgid "The live chat appears here on the published page."
+msgstr ""
+
+#: build/inbox.js:1
+msgid "now"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Waiting"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Mine"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Open"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Closed"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Chats"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Search chats"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Name, email, phone or #"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "No chats found."
+msgstr ""
+
+#: build/inbox.js:1
+msgid "No chats here yet."
+msgstr ""
+
+#: build/inbox.js:1
+msgid "You:"
+msgstr ""
+
+#: build/inbox.js:1
+#: build/settings.js:1
+msgid "Offline message"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Other agent"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "unread"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Showing the latest 30 chats. Search to find older ones."
+msgstr ""
+
+#. translators: %s: agent name
+#: build/inbox.js:1
+#, js-format
+msgid "Note by %s · only agents see this"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Back to the list"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "On the site now"
+msgstr ""
+
+#. translators: %s: time, like "5 min. ago"
+#: build/inbox.js:1
+#, js-format
+msgid "Last seen %s"
+msgstr ""
+
+#. translators: %s: agent name
+#: build/inbox.js:1
+#, js-format
+msgid "Agent: %s"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Take chat"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Take over"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Reopen"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "More"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Transfer to"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "online"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Delete this chat and all its messages? This cannot be undone."
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Delete chat"
+msgstr ""
+
+#. translators: %s: visitor name
+#: build/inbox.js:1
+#, js-format
+msgid "%s is typing…"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Saved replies"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Write a note for other agents…"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Write a reply… (type / for saved replies)"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Note"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Reply"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Private note"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Enter to send · Shift+Enter for a new line"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Add note"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Visitor details"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "WordPress user"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Last active"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Device"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Rating"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Current page"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Recent orders"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "In a reply, type / and the shortcut (for example /hours) to insert the text. All agents share these."
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Shortcut"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Text"
+msgstr ""
+
+#: build/inbox.js:1
+#: build/settings.js:1
+msgid "Remove"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Add a reply"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Save"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "A new visitor is waiting for an answer."
+msgstr ""
+
+#: build/inbox.js:1
+msgid "New message from a visitor."
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Could not reach the server. Retrying…"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Sound on"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Sound off"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "Turn on desktop notifications"
+msgstr ""
+
+#: build/inbox.js:1
+msgid "You are away. If no other agent is online, visitors see the offline form and their messages reach you by email."
+msgstr ""
+
+#. translators: %d: number of chats
+#: build/inbox.js:1
+#, js-format
+msgid "%d visitor is waiting. Pick a chat on the left."
+msgid_plural "%d visitors are waiting. Pick a chat on the left."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inbox.js:1
+msgid "Pick a chat on the left. New chats show up here by themselves."
+msgstr ""
+
+#. translators: %d: number of visitors waiting
+#: build/notify.js:3
+#, js-format
+msgid "%d visitor is waiting for an answer"
+msgid_plural "%d visitors are waiting for an answer"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/settings.js:1
+msgid "Start"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Chat"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Offline"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Preview"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Short text"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Long text"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Dropdown"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Checkbox"
+msgstr ""
+
+#: build/settings.js:1
+msgid "No fields: visitors only write a message."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Label"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Choices, one per line"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Required"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Move up"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Move down"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add a field"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Phone number with country code, for example +8801712345678"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Your Facebook page username, as in m.me/username"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Your Telegram username, without @"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Phone call"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Phone number with country code"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Email address"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Link"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Any web address, for example your contact page"
+msgstr ""
+
+#: build/settings.js:1
+msgid "No buttons yet."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Type"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Button text (optional)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add a button"
+msgstr ""
+
+#: build/settings.js:1
+msgid "From"
+msgstr ""
+
+#: build/settings.js:1
+msgid "To"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Find a page or post"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Type at least 2 letters"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Chat logo"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Change image"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Choose image"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Always (can change settings)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add an agent"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Search users by name, username or email. Agents can answer chats but not change these settings."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Agent"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Make agent"
+msgstr ""
+
+#: build/settings.js:1
+msgid "General"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Look"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Form"
+msgstr ""
+
+#: build/settings.js:1
+msgid "WhatsApp & more"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Where to show"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Agents"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Emails"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Privacy & spam"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Chat bubble"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Two bubbles"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Question mark"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Headset"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Settings sections"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Chat button"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Show the chat button on the site"
+msgstr ""
+
+#: build/settings.js:1
+msgid "When off, the chat still works where you place the Live Chat block or the [softicon_live_chat] shortcode."
+msgstr ""
+
+#: build/settings.js:1
+msgid "When are you online?"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Automatic: online while an agent has wp-admin open and is not set to Away"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Always online: visitors can always start a live chat"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Always offline: visitors leave a message and you reply by email"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Reply time (optional)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Shown under the title while you are online, for example \"We usually reply in a few minutes\"."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Business hours"
+msgstr ""
+
+#. translators: %s: time zone
+#: build/settings.js:1
+#, js-format
+msgid "Outside these hours the chat shows the offline form. Time zone: %s (Settings → General)."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Use business hours"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Colors and place"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Main color"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Corner"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Bottom right"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Bottom left"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Distance from the side (px)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Distance from the bottom (px)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Size"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Normal"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Compact"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Button"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Icon"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Text next to the icon (optional)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "For example: Chat with us. Leave empty for an icon only."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Chat window"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Title"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Subtitle (optional)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Welcome message"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Logo or team photo"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Show the names of online agents"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Before the chat"
+msgstr ""
+
+#: build/settings.js:1
+msgid "What visitors fill in before their first message. When you are offline, an email field is always asked, so you can answer."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Ask for details before the chat"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Privacy notice"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Visitors must accept a privacy notice"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Notice text"
+msgstr ""
+
+#: build/settings.js:1
+msgid "A web address in the text becomes a link."
+msgstr ""
+
+#: build/settings.js:1
+msgid "When you are offline"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Other ways to reach you"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Buttons that open WhatsApp, Messenger, Telegram, a phone call or an email. They are plain links: nothing is sent to these services until a visitor clicks."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Show only when you are offline"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Always show them on the start screen"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Pages"
+msgstr ""
+
+#: build/settings.js:1
+msgid "On every page"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Only on these pages"
+msgstr ""
+
+#: build/settings.js:1
+msgid "On every page except these"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Visitors and devices"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Devices"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Phones and computers"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Computers only"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Phones only"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Visitors"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Everyone"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Only visitors who are not logged in"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Only logged-in users"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Open by itself"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Opens the chat window once per visit after this many seconds, on computers only. 0 keeps it closed until the visitor clicks."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Seconds"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Chat inside a page"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add the Live Chat block in the editor, or the shortcode [softicon_live_chat] in any page builder. A link to #live-chat, or any element with the class allc-open, opens the chat."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Who answers chats"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Administrators can always answer. Add other users here, no role editor needed."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Emails to you"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Send to"
+msgstr ""
+
+#. translators: %s: admin email
+#: build/settings.js:1
+#, js-format
+msgid "Up to 5 addresses, separated by commas. Empty means %s."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Email me about new chats"
+msgstr ""
+
+#: build/settings.js:1
+msgid "When nobody is online, or nobody answers within 2 minutes"
+msgstr ""
+
+#: build/settings.js:1
+msgid "For every new chat"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Never"
+msgstr ""
+
+#. translators: %s: email addresses
+#: build/settings.js:1
+#, js-format
+msgid "Test email sent to %s. If it does not arrive in a few minutes, check the spam folder or set up an SMTP plugin."
+msgstr ""
+
+#: build/settings.js:1
+msgid "WordPress could not send the email. An SMTP plugin usually fixes this."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Send a test email"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Save first, then send the test."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Emails to visitors"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Email your reply when the visitor has left the site"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Only when the visitor gave an email address. At most one email every 15 minutes per chat."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Let visitors ask for a copy of the chat"
+msgstr ""
+
+#: build/settings.js:1
+msgid "After the chat"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Ask visitors to rate the chat"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Privacy"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Chats are stored only in your own database. Tools → Export/Erase Personal Data finds them by email."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Store visitors' IP addresses"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Delete chats with no activity for this many days (0 = keep them)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Delete all chats and settings when the plugin is deleted"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Block list"
+msgstr ""
+
+#: build/settings.js:1
+msgid "One per line: an email (name@example.com), a whole domain (@example.com), an IP address, or the start of one ending with a dot (192.168.)."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Blocked visitors"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Settings saved. If your site uses a page cache, clear it so visitors get the new look."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Save changes"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Saved"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Undo changes"
+msgstr ""
+
+#: build/block/block.json
+msgctxt "block title"
+msgid "Live Chat"
+msgstr ""
+
+#: build/block/block.json
+msgctxt "block description"
+msgid "Put the live chat inside a page, for example on your Contact page."
+msgstr ""
+
+#: build/block/block.json
+msgctxt "block keyword"
+msgid "chat"
+msgstr ""
+
+#: build/block/block.json
+msgctxt "block keyword"
+msgid "support"
+msgstr ""
+
+#: build/block/block.json
+msgctxt "block keyword"
+msgid "contact"
+msgstr ""
+
+#: build/block/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr ""
+
+#: build/block/block.json
+msgctxt "block keyword"
+msgid "message"
+msgstr ""

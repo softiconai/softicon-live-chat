@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "softicon/live-chat",
+	"version": "1.0.0",
+	"title": "Live Chat",
+	"category": "widgets",
+	"description": "Put the live chat inside a page, for example on your Contact page.",
+	"keywords": [ "chat", "support", "contact", "help", "message" ],
+	"textdomain": "softicon-live-chat",
+	"attributes": {
+		"height": {
+			"type": "number",
+			"default": 520
+		}
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": [ "wide", "full" ],
+		"spacing": {
+			"margin": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"render": "file:./render.php"
+}

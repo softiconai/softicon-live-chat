@@ -1,0 +1,63 @@
+.allcBlockPreview {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	min-height: 320px;
+	border: 1px solid #e5e7eb;
+	border-radius: 16px;
+	background: #fff;
+	color: #1f2937;
+	font-size: 15px;
+}
+
+.allcBlockHead {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 16px 18px;
+	background: #2563eb;
+	color: #fff;
+	font-weight: 700;
+
+	svg {
+		width: 22px;
+		height: 22px;
+		fill: currentColor;
+	}
+}
+
+.allcBlockBody {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 8px;
+	padding: 16px;
+}
+
+.allcBlockBubble {
+	align-self: flex-start;
+	max-width: 80%;
+	padding: 9px 13px;
+	border-radius: 18px 18px 18px 6px;
+	background: #f3f4f6;
+}
+
+.allcBlockMine {
+	align-self: flex-end;
+	border-radius: 18px 18px 6px;
+	background: #2563eb;
+	color: #fff;
+}
+
+.allcBlockNote {
+	padding: 10px 16px;
+	border-top: 1px solid #e5e7eb;
+	color: #6b7280;
+	font-size: 13px;
+	text-align: center;
+}
+
+.allcBlockHelp {
+	color: #757575;
+	font-size: 12px;
+}

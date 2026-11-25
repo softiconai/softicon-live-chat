@@ -1,0 +1,24 @@
+<wpml-config>
+	<admin-texts>
+		<key name="allc_settings">
+			<key name="title" />
+			<key name="subtitle" />
+			<key name="greeting" />
+			<key name="offline_text" />
+			<key name="reply_time" />
+			<key name="launcher_text" />
+			<key name="consent_text" />
+			<key name="fields">
+				<key name="*">
+					<key name="label" />
+					<key name="options" />
+				</key>
+			</key>
+			<key name="channels">
+				<key name="*">
+					<key name="label" />
+				</key>
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>
